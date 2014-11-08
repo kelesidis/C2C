@@ -12,10 +12,20 @@
         <title>Testing</title>
     </head>
     <body>
-        <form action="ControllerServlet" method="post">  
-            Name:<input type="text" name="name"><br>  
-            Password:<input type="password" name="password"><br>  
-            <input type="submit" value="login">  
-        </form> 
+       <table>
+            <form action="ControllerServlet" method="post">
+            <tr>
+                <td align="right">NAME:</td>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td align="right">PASSWORD:</td>
+                <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+             <td align="right">Register  <input type="submit" value="login"></td>
+            </tr>
+             </form> 
+        </table>
     </body>
 </html>
