@@ -9,11 +9,11 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Testing</title>
+        <title>Welcome</title>
     </head>
     <body>
        <table>
-            <form action="ControllerServlet" method="post">
+            <form action="Login" method="post">
             <tr>
                 <td align="right">NAME:</td>
                 <td><input type="text" name="name"></td>
@@ -23,9 +23,11 @@
                 <td><input type="password" name="password"></td>
             </tr>
             <tr>
-             <td align="right">Register  <input type="submit" value="login"></td>
+                <td align="right">    <input type="submit" value="login"> </form></td>
+                <td> <form action="SignUp" method="post"> <input type="submit" value="Register"> </form> </td>
             </tr>
-             </form> 
         </table>
     </body>
+    
+    
 </html>
