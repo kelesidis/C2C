@@ -4,8 +4,10 @@
         <servlet-name>s1</servlet-name>
         <servlet-class>controller.ControllerServlet</servlet-class>
     </servlet>
+    
     <servlet-mapping>
         <servlet-name>s1</servlet-name>
-        <url-pattern>/ControllerServlet</url-pattern>
+        <url-pattern>/Login</url-pattern>
     </servlet-mapping>
+   
 </web-app>

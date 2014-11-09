@@ -25,11 +25,11 @@
             boolean status=bean.validate();  
               
             if(status){  
-                RequestDispatcher rd=request.getRequestDispatcher("/pages/login-success.jsp");  
+                RequestDispatcher rd=request.getRequestDispatcher("/Pages/Login/login-success.jsp");  
                 rd.forward(request, response);  
             }  
             else{  
-                RequestDispatcher rd=request.getRequestDispatcher("/pages/login-error.jsp");  
+                RequestDispatcher rd=request.getRequestDispatcher("/Pages/Login/login-error.jsp");  
                 rd.forward(request, response);  
             }  
           
