@@ -1,7 +1,7 @@
-<%@page import="model.LoginBean"%>  
+<%@page import="model.LoginUserModel"%>  
   
 <p>You are successfully logged in!</p>  
 <%  
-LoginBean bean=(LoginBean)request.getAttribute("bean");  
-out.print("Welcome, "+bean.getName());  
+LoginUserModel LUM=(LoginUserModel)request.getAttribute("bean");  
+out.print("Welcome, "+LUM.getName());  
 %> 
