@@ -10,6 +10,9 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>WEB_APP_NAME Sign Up</title>
+         <style>
+                body{background-color:#d0e4fe;} 
+        </style>
     </head>
     <body>
        <table>
